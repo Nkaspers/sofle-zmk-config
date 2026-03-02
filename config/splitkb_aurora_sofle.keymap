@@ -10,13 +10,15 @@
 
 /* Uncomment this block if using RGB */
 
+/*
 &led_strip {
-    chain-length = <6>;
+    // chain-length = <6>;
 
     // chain-length = <35>; // Uncomment if using both per-key and underglow LEDs
 
-    chain-length = <29>; // Uncomment if using only per-key LEDs.
+    // chain-length = <29>; // Uncomment if using only per-key LEDs.
 };
+*/
 
 / {
     keymap {
@@ -73,7 +75,7 @@
             bindings = <
 &kp F1            &kp F2        &kp F3  &kp F4  &kp F5        &kp F6                        &kp F7         &kp F8     &kp F9        &kp F10   &kp F11    &kp F12
 &kp GRAVE         &trans        &kp N7  &kp N8  &kp N9        &kp INS                       &kp PAGE_UP    &kp HOME   &kp UP_ARROW  &kp END   &trans     &trans
-&kp LEFT_CONTROL  &kp LEFT_GUI  &kp N4  &kp N5  &kp N6        &kp DELETE                    &kp PAGE_DOWN  &kp LEFT   &kp DOWN      &kp UP    &kp RIGHT  &trans
+&kp LEFT_CONTROL  &kp LEFT_GUI  &kp N4  &kp N5  &kp N6        &kp DELETE                    &kp PAGE_DOWN  &kp LEFT   &kp DOWN      &kp RIGHT    &trans  &trans
 &kp LEFT_SHIFT    &trans        &kp N1  &kp N2  &kp N3        &trans      &trans    &trans  &kp KP_PLUS    &kp MINUS  &kp EQUAL     &kp LBKT  &kp RBKT   &kp BSLH
                                 &trans  &trans  &kp LEFT_GUI  &trans      &trans    &trans  &trans         &trans     &trans        &trans
             >;
