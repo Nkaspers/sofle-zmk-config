@@ -32,12 +32,12 @@
             //               |CTRL | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   | RALT |
 
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                          &kp N6  &kp N7  &kp N8      &kp N9     &kp N0     &kp GRAVE
-&kp TAB    &kp Q   &kp W   &kp D   &kp P   &kp B                           &kp J   &kp L   &kp U       &kp Z      &kp COLON  &kp MINUS
-&kp LCTRL  &kp A   &kp R   &kp S   &kp T   &kp G                           &kp M   &kp N   &kp E       &kp I      &kp O      &kp SQT
-&kp LSHFT  &kp Y   &kp X   &kp F   &kp C   &kp V   &kp K_MUTE    &kp RBKT  &kp K   &kp H   &kp PERIOD  &kp COMMA  &kp FSLH   &kp RSHFT
-               &kp LCTRL &kp LALT &kp LGUI &mo 1   &kp SPACE     &kp RET   &mo 2   &kp BSPC &kp RGUI   &kp RALT
-                   >;
+&kp ESC    &kp N1  &kp N2     &kp N3    &kp N4    &kp N5                          &kp N6  &kp N7    &kp N8      &kp N9     &kp N0     &kp GRAVE
+&kp TAB    &kp Q   &kp W      &kp D     &kp P     &kp B                           &kp J   &kp L     &kp U       &kp Z      &kp COLON  &kp MINUS
+&kp LCTRL  &kp A   &kp R      &kp S     &kp T     &kp G                           &kp M   &kp N     &kp E       &kp I      &kp O      &kp SQT
+&kp LSHFT  &kp Y   &kp X      &kp F     &kp C     &kp V   &kp K_MUTE    &kp RBKT  &kp K   &kp H     &kp PERIOD  &kp COMMA  &kp FSLH   &kp RSHFT
+                   &kp LCTRL  &kp LALT  &kp LGUI  &mo 1   &kp SPACE     &kp RET   &mo 2   &kp BSPC  &kp RGUI    &kp RALT
+            >;
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
@@ -53,7 +53,7 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4                     &trans       &trans                &trans                 &trans         &trans             &sl 3
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4                     &trans       &trans                &trans                 &trans         &trans             &tog 3
 &trans      &kp GRAVE     &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE                         &kp CARET    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR     &trans             &trans
 &trans      &kp EXCL      &kp ASTERISK   &kp SLASH         &kp EQUAL          &kp AMPERSAND                    &kp HASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp DOUBLE_QUOTES  &trans
 &trans      &kp TILDE     &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT    &trans    &trans  &kp AT_SIGN  &kp COLON             &kp COMMA              &kp PERIOD     &kp SINGLE_QUOTE   &trans
@@ -84,7 +84,7 @@
 
         gaming {
             bindings = <
-&kp TAB    &kp Q   &kp N1  &kp N2    &kp N3  &kp N4                       &trans  &trans  &trans  &trans  &trans  &sl 3
+&kp TAB    &kp Q   &kp N1  &kp N2    &kp N3  &kp N4                       &trans  &trans  &trans  &trans  &trans  &tog 3
 &kp TAB    &kp A   &kp W   &kp E     &kp R   &kp T                        &trans  &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp Z   &kp S   &kp D     &kp F   &kp G                        &trans  &trans  &trans  &trans  &trans  &trans
 &kp LCTRL  &trans  &kp X   &kp C     &kp V   &kp B   &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
