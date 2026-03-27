@@ -32,11 +32,11 @@
             //               |CTRL | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   | RALT |
 
             bindings = <
-&kp ESC    &kp N1  &kp N2     &kp N3    &kp N4    &kp N5                          &kp N6  &kp N7    &kp N8      &kp N9     &kp N0     &kp GRAVE
-&kp TAB    &kp Q   &kp W      &kp D     &kp P     &kp B                           &kp J   &kp L     &kp U       &kp Z      &kp COLON  &kp MINUS
-&kp LCTRL  &kp A   &kp R      &kp S     &kp T     &kp G                           &kp M   &kp N     &kp E       &kp I      &kp O      &kp SQT
-&kp LSHFT  &kp Y   &kp X      &kp F     &kp C     &kp V   &kp K_MUTE    &kp RBKT  &kp K   &kp H     &kp PERIOD  &kp COMMA  &kp FSLH   &kp RSHFT
-                   &kp LCTRL  &kp LALT  &kp LGUI  &mo 1   &kp SPACE     &kp RET   &mo 2   &kp BSPC  &kp RGUI    &kp RALT
+&kp ESC         &kp N1  &kp N2     &kp N3    &kp N4    &kp N5                          &kp N6  &kp N7    &kp N8      &kp N9     &kp N0     &kp GRAVE
+&kp TAB         &kp Q   &kp W      &kp D     &kp P     &kp B                           &kp J   &kp L     &kp U       &kp Z      &kp COLON  &kp MINUS
+&kp LEFT_SHIFT  &kp A   &kp R      &kp S     &kp T     &kp G                           &kp M   &kp N     &kp E       &kp I      &kp O      &kp RIGHT_SHIFT
+&kp LCTRL       &kp Y   &kp X      &kp F     &kp C     &kp V   &kp K_MUTE    &kp RBKT  &kp K   &kp H     &kp PERIOD  &kp COMMA  &kp FSLH   &kp APOSTROPHE
+                        &kp LCTRL  &kp LALT  &kp LGUI  &mo 1   &kp SPACE     &kp RET   &mo 2   &kp BSPC  &kp RGUI    &kp RALT
             >;
 
             sensor-bindings =
@@ -84,11 +84,11 @@
 
         gaming {
             bindings = <
-&kp TAB    &kp Q   &kp N1  &kp N2    &kp N3  &kp N4                       &trans  &trans  &trans  &trans  &trans  &tog 3
-&kp TAB    &kp A   &kp W   &kp E     &kp R   &kp T                        &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp Z   &kp S   &kp D     &kp F   &kp G                        &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &trans  &kp X   &kp C     &kp V   &kp B   &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                   &trans  &kp LALT  &trans  &trans  &kp SPACE    &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp Q             &kp N1  &kp N2  &kp N3  &kp N4                             &trans  &trans  &trans  &trans  &trans  &tog 3
+&kp TAB    &kp TAB           &kp Q   &kp W   &kp E   &kp R                              &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp LEFT_SHIFT    &kp A   &kp S   &kp D   &kp F                              &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp LEFT_CONTROL  &kp Y   &kp X   &kp C   &kp V         &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                             &trans  &kp T   &kp G   &kp NUMBER_1  &kp SPACE    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
