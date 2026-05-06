@@ -36,7 +36,7 @@
 &kp TAB         &kp Q   &kp W      &kp D     &kp P     &kp B                           &kp J   &kp L     &kp U       &kp Z      &kp COLON  &kp MINUS
 &kp LEFT_SHIFT  &kp A   &kp R      &kp S     &kp T     &kp G                           &kp M   &kp N     &kp E       &kp I      &kp O      &kp RIGHT_SHIFT
 &kp LCTRL       &kp Y   &kp X      &kp F     &kp C     &kp V   &kp K_MUTE    &kp RBKT  &kp K   &kp H     &kp PERIOD  &kp COMMA  &kp FSLH   &kp APOSTROPHE
-                        &kp LCTRL  &kp LALT  &kp LGUI  &mo 1   &kp SPACE     &kp RET   &mo 2   &kp BSPC  &kp RGUI    &kp RALT
+                        &kp LCTRL  &kp LALT  &kp LGUI  &mo 1   &kp SPACE     &kp RET   &mo 2   &kp BSPC  &kp RALT    &kp RGUI
             >;
 
             sensor-bindings =
@@ -54,7 +54,7 @@
 
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4                     &trans       &trans                &trans                 &trans         &trans             &tog 3
-&trans      &kp GRAVE     &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE                         &kp CARET    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR     &trans             &trans
+&trans      &kp GRAVE     &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE                         &kp CARET    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR     &kp QMARK          &trans
 &trans      &kp EXCL      &kp ASTERISK   &kp SLASH         &kp EQUAL          &kp AMPERSAND                    &kp HASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp DOUBLE_QUOTES  &trans
 &trans      &kp TILDE     &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT    &trans    &trans  &kp AT_SIGN  &kp COLON             &kp COMMA              &kp PERIOD     &kp SINGLE_QUOTE   &trans
                           &trans         &trans            &trans             &trans         &trans    &trans  &trans       &trans                &trans                 &trans
@@ -88,7 +88,7 @@
 &kp TAB    &kp TAB           &kp Q   &kp W   &kp E   &kp R                              &trans  &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp LEFT_SHIFT    &kp A   &kp S   &kp D   &kp F                              &trans  &trans  &trans  &trans  &trans  &trans
 &kp LCTRL  &kp LEFT_CONTROL  &kp Y   &kp X   &kp C   &kp V         &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                             &trans  &kp T   &kp G   &kp NUMBER_1  &kp SPACE    &trans  &trans  &trans  &trans  &trans
+                             &kp B   &kp T   &kp G   &kp NUMBER_1  &kp SPACE    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
